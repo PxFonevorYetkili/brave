@@ -185,7 +185,7 @@ const times = require('./database/models/pre.js')
 /**
  * Server Join/Leave Datas
  */
-const webhook = new Discord.WebhookClient("841769902322614293","oPugzkSD3Gb2BYFmXJ84quBZpkDKvBIRiuLFRknOAGc8wTmu_rP0oA0xfjWP4ajMCEQ4");
+const webhook = new Discord.WebhookClient("1192111032383057960","JIk5nU29mcZNpEZ5eHEQCkS-mc7nHZPBcgE2l-a6WO3QQEeMYyqJLzFPfRkW74oHO9ii");
 
 client.on('guildDelete', async guild => {
   const dbmodel = require("./database/models/server.js");
