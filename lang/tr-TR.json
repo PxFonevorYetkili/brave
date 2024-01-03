@@ -10,21 +10,21 @@
     "+": "``{coin}`` **|** ``{user}`` tarafından eklendi**!** *(Sebep: {reason})*",
     "-": "``{coin}`` **|** ``{user}`` tarafından çıkarıldı**!** *(Sebep: {reason})*",
     "bulunuyor": ":coin: Hesabınızda **{amount}** coin bulunuyor.",
-    "geçmiş": "> <:lpi:844336401389715516> Hesap Geçmişi:",
-    "geçmişyok": "> :x: Hesabınızın bir geçmişi bulunamadı.",
+    "geçmiş": "> Hesap Geçmişi:",
+    "geçmişyok": ">  Hesabınızın bir geçmişi bulunamadı.",
     "promocode": "Promosyon Kodu",
     "coinflip": "Yazı Tura",
     "added": "Ekledim Komutu"
   },
-  "noPerm": "> :x: **|** ``{x}`` komutunu kullanabilmek için ``{y} sahip olmanız gereklidir**!**",
-  "commandDisabled": "> :x: **|** ``{x}`` komutu geliştiriciler tarafından devre dışı bırakılmıştır**!**",
+  "noPerm": "> **|** ``{x}`` komutunu kullanabilmek için ``{y} sahip olmanız gereklidir**!**",
+  "commandDisabled": "> **|** ``{x}`` komutu geliştiriciler tarafından devre dışı bırakılmıştır**!**",
   "yardim": {
-    "title": "Light Partner - Yardım",
+    "title": "Brave - Yardım",
     "footer": "Sayfa {currentPage}/{maxPage}",
     "delete": ":x: **|** Bu mesaj **5 saniye** sonra silinecek**!**",
     "language": "> __Dil__ **»** :flag_tr: `Türkçe`",
     "prefix": "> __Prefix__ **»** ``{prefix}``",
-    "loading": ":gear: **|** Emojiler yükleniyor**,** lütfen bekleyin**...**",
+    "loading": "**|** Emojiler yükleniyor**,** lütfen bekleyin**...**",
     "noReq": "Herkes kullanabilir.",
     "ileri": "İleri",
     "geri": "Geri",
@@ -32,7 +32,7 @@
     "siliniyor": "Siliniyor"
   },
   "istatistik": {
-    "title": "Light Partner - İstatistik",
+    "title": "Brave - İstatistik",
     "dev": "Geliştirici Takımımız",
     "totalPartner": "Toplam Partnerlik",
     "generalDatas": "Genel Veriler",
@@ -97,10 +97,10 @@
   "partner": {
     "url": {
       "urlbelirt": "Bir özel davet kodu belirtmelisin.\n`(Uzunluk; maksimum: 32, minimum: 3)`",
-      "quest": "**60** coin karşılığında `{url}` davet kodunu satın almak istediğinizden emin misiniz? `(evet/hayır)`\n**:exclamation: | Eski özel url kodunuz iptal edilip, yeni url kodunuz devreye girecektir.**",
+      "quest": "**60** coin karşılığında `{url}` davet kodunu satın almak istediğinizden emin misiniz? `(evet/hayır)`\n** | Eski özel url kodunuz iptal edilip, yeni url kodunuz devreye girecektir.**",
       "maxerr": "Maksimum 32 karakterlik bir davet kodu alabilirsin.",
       "minerr": "Minimum 3 karakterlik bir davet kodu alabilirsin.",
-      "aldin": ":white_check_mark: Başarıyla `{url}` davet kodunu **{miktar}** coin karşılığında satın aldınız.\n:timer: Davet kodunuz **{time}** sonra sona ericek.\n:globe_with_meridians: Bağlantı; http://localhost/i/{url}",
+      "aldin": "Başarıyla `{url}` davet kodunu **{miktar}** coin karşılığında satın aldınız.\n:timer: Davet kodunuz **{time}** sonra sona ericek.\n Bağlantı; http://localhost/i/{url}",
       "mevcut": "Almaya çalıştığın **{url}** davet kodu başka bir sunucu tarafından kullanılıyor.",
       "yetersizBakiye": "Hesabınızda yeterli coin bulunmuyor.",
       "invalid": "Özel URL sadece ingiliz harflerini içerebilir!"
@@ -147,22 +147,22 @@
     "partnerolmadi": "`{name}` isimli `{memberCount}` üyeye sahip sunucu ile partnerlik **gerçekleştirilemedi.** `Reddeden Yetkili: {yetkili}`",
     "partnerMesaj": "`{sunucuAdi}` sunucusu sizinle partner olmak istiyor.\n\n> » Davet Kodu: `{inviteCode}`\n> » Sunucu Sahibi: `{sahip}`\n> » Yetkili: `{yetkili}`\n> » Kullanıcı Sayısı: `{memberCount}`\n> » Davet Bağlantısı: [lightpartner.xyz/i/{inviteCode}](http://localhost/i/{inviteCode})\n> » Sunucunun Oluşturulma Tarihi: `{opendate}`\n> » Sunucunun Toplam Partnerliği: `{partnerCount}`",
     "staffRoleSaved": "Partner sorumlusu rolü başarıyla ayarlandı.",
-    "staffRoleError[1]": ":x: Sorumlu rolü zaten deaktif durumda, lütfen rol ayarladıktan sonra tekrar deneyiniz.",
+    "staffRoleError[1]": "Sorumlu rolü zaten deaktif durumda, lütfen rol ayarladıktan sonra tekrar deneyiniz.",
     "staffRoleQuest[1]": "Sorumlu rolünü sıfırlamak istediğinizden emin misiniz? `(evet/hayır)`",
     "staffRoleReseted": "Sıfırlama isteği başarılı bir şekilde gerçekleştirildi.",
     "textChanged": "Partner yazısını başarılı bir şekilde ayarladınız.\n\nÖnizleme:```{text}```",
-    "writeText": ":x: Bu komutu gerçekleştirebilmek için, bir yazı girmelisiniz.",
-    "textDeActive": ":x: Partner yazısı deaktif durumdaymış gibi gözüküyor, lütfen bir yazı ayarladıktan sonra tekrar deneyiniz.",
+    "writeText": "Bu komutu gerçekleştirebilmek için, bir yazı girmelisiniz.",
+    "textDeActive": "Partner yazısı deaktif durumdaymış gibi gözüküyor, lütfen bir yazı ayarladıktan sonra tekrar deneyiniz.",
     "partnerTextQuest": "Partner yazısını sıfırlamak istediğinizden emin misiniz? `(evet/hayır)`",
     "successReset": "Sıfırlama isteğini başarılı bir şekilde gerçekleştirdiniz.",
     "yetkiyok": "Bir sunucuda, {yetki} sahip değilim. Bu yüzden işlemi iptal ettim.",
     "thisYourServer": "Kendi sunucunuz ile partner olamazsınız.",
     "statusActive": "Partnerlik sistemini başarılı bir şekilde aktif hale getirdiniz.",
-    "statusAlreadyDeActive": ":x: Partner durumu kapalı durumdaymış gibi gözüküyor.",
+    "statusAlreadyDeActive": "Partner durumu kapalı durumdaymış gibi gözüküyor.",
     "statusQuest": "Partnerlik sistemini kapatmak istediğinizden emin misiniz? `(evet/hayır)`\n**:exclamation: | Özel davet kodunuz mu var? Bu kötü! Sistemi kapattığınız anda özel davet kodunuz sıfırlanacaktır.**",
     "statusAlreadyActive": "Partnerlik sistemi aktif durumdaymış gibi gözüküyor.",
     "partnerReseted": "Partnerlik sistemini başarılı bir şekilde kapattınız..",
-    "notTaggedChannel": ":x: Bu komut, bir kanal etiketlemeden kullanılamaz. Bir kanal etiketleyin ve tekrar deneyin.",
+    "notTaggedChannel": "Bu komut, bir kanal etiketlemeden kullanılamaz. Bir kanal etiketleyin ve tekrar deneyin.",
     "channelChanged[1]": "Partner kanalını başarılı bir şekilde ayarladınız. (<#{kanal}>)",
     "channelChanged[2]": "Log kanalını başarılı bir şekilde ayarladınız. (<#{kanal}>)",
     "resetAll?": "Ayarlanmış olan tüm partner datalarını sıfırlamak istediğinizden emin misiniz? `(evet/hayır)`",
@@ -194,14 +194,14 @@
     "fazlaRakam": "Girdiğiniz kullanıcı limiti **bu sunucunun kullanıcı sayısından büyük** olduğu için işlemi iptal ettim.",
     "search": {
       "members": "Kullanıcı",
-      "title": "Light Partner - Partnerlik Sistemi",
+      "title": "Brave - Partnerlik Sistemi",
       "footer": "Partnerlik durumu aktif olan sunucular listeleniyor.",
       "serverNotFound": ":pleading_face: Bu çok kötü! Partnerlik yapabileceğiniz bir sunucu bulunmuyor."
     }
   },
   "quest": {
-    "commandCanceled": ":x: Komut iptal edildi.",
-    "timeout": ":x: Komut zaman aşımına uğradı.",
+    "commandCanceled": "Komut iptal edildi.",
+    "timeout": "Komut zaman aşımına uğradı.",
     "yes": "evet",
     "no": "hayır"
   },
@@ -275,8 +275,8 @@
     "limit": "Maksimum 9999 coin transfer yapabilirsiniz!",
     "gecersizMiktar": "İşlem yapmak istediğiniz miktar geçerli değil!",
     "günlük": {
-      "alindi": ":moneybag: **|** Hesabınıza **{miktar}** coin başarıyla eklendi.\n:timer: **|** Tekrar günlük ödül almak için **{time}** beklemelisin.",
-      "suregecmeli": ":timer: **|** Tekrar günlük ödül almak için **{time}** beklemelisin."
+      "alindi": "**|** Hesabınıza **{miktar}** coin başarıyla eklendi.\n:timer: **|** Tekrar günlük ödül almak için **{time}** beklemelisin.",
+      "suregecmeli": "**|** Tekrar günlük ödül almak için **{time}** beklemelisin."
     },
     "gönderilecek": "Transfer edeceğiniz coin miktarını belirtmelisiniz.",
     "üyebelirt": "Coin transfer edilecek kullanıcıyı etiketlemelisiniz.",
@@ -293,7 +293,7 @@
     "args": {
       "bozdur": "bozdur"
     },
-    "invalidArgs[0]": ":x: Bozdurabileceğim bir kod girmelisin."
+    "invalidArgs[0]": "Bozdurabileceğim bir kod girmelisin."
   },
   "coinflip": {
     "args[0]": "Bir bahis miktarı girmelisin.",
@@ -302,9 +302,9 @@
     "args[3]": "Bahsinizin miktarı minimum 3 maksimum 50 olmalıdır.",
     "args[4]": "Hesabınızda **{coin}** coin bulunmuyor.",
     "flipping": ":coin: **|** Yazı tura atılıyor...",
-    "youLost": ":x: **|** **{coin}** coin kaybettin**!**",
-    "nothing": ":white_circle: **|** Hiçbir şey kazanmadın veya kaybetmedin**!**",
-    "youWon": ":white_check_mark: **|** **{coin}** coin kazandın, tebrikler**!**"
+    "youLost": "**|** **{coin}** coin kaybettin**!**",
+    "nothing": "**|** Hiçbir şey kazanmadın veya kaybetmedin**!**",
+    "youWon": "**|** **{coin}** coin kazandın, tebrikler**!**"
   },
   "ekledim": {
     "100ekle": "Bu komutu kullanmak için beni **100+** üyesi bulunan **2 sunucuya** eklemelisin.\nSenin eklediğin sunucusu sayısı; **{count}**",
