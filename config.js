@@ -4,7 +4,7 @@ module.exports = {
   developers: [ "1176087996043374594" ],
   mongourl: "mongodb+srv://Test1:Test1@cluster0.ubo0e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   links: {
-    support: "https://discord.gg/7xzQdYNGNB"
+    support: "https://discord.gg/gMbT8EXUb4"
   },
   filteredCmds: [ "davet", "yardım", "eval", "karaliste", "bakım", "coin", "kod", "premium", "ping" ],
   embed: {
