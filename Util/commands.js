@@ -25,7 +25,7 @@ module.exports = (Discord, client, config) => {
 
               client.commands.set(command.config.name, command);
               command.config.aliases.forEach(alias => client.aliases.set(alias, command.config.name));
-              if (loadedCommands == files.length) console.log(`[Light Partner] Komutlar başarıyla yüklendi! (${files.length})`);
+              if (loadedCommands == files.length) console.log(`[Brave] Komutlar başarıyla yüklendi! (${files.length})`);
           });
       };
   });
