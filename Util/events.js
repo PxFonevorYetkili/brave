@@ -6,7 +6,7 @@ module.exports = (Discord, client, config) => {
           files.forEach(file => {
               loadedEvents++
               require(`${process.cwd()}/${'./events'}/${file}`)(Discord, client, config);
-              if (loadedEvents == files.length) console.log(`[Light Partner] Eventlar başarıyla yüklendi! (${files.length})`);
+              if (loadedEvents == files.length) console.log(`[Brave] Eventlar başarıyla yüklendi! (${files.length})`);
           });
       };
   });
