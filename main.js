@@ -318,7 +318,7 @@ client.on("clickButton", async (button) => {
     await pdata.findOneAndUpdate({guildID: serverDataOne.guildID }, {$inc: { partner_partnerCount: 1 }}, { upsert: true })
     await pdata.findOneAndUpdate({guildID: serverDataTwo.guildID }, {$inc: { partner_partnerCount: 1 }}, { upsert: true })
 
-    await botdatabase.findOneAndUpdate({ botID: "789918433495875584" }, {$inc: { partnerCount: 4 }}, { upsert: true })
+    await botdatabase.findOneAndUpdate({ botID: "1191768101298110536" }, {$inc: { partnerCount: 4 }}, { upsert: true })
 
     await cGecmis.findOneAndUpdate({userID: button.clicker.user.id }, {$push: {gecmis: { count: 3, user: "{system}", reason: 'Partner', Date: Date.now() } }}, { upsert: true});          
     await cGecmis.findOneAndUpdate({userID: findServer.author }, {$push: {gecmis: { count: 3, user: "{system}", reason: 'Partner', Date: Date.now() } }}, { upsert: true});          
