@@ -20,9 +20,9 @@ module.exports = {
         client.users.fetch(user).then(async u => {
           if(u.bot) return message.channel.error("Bir bota premium veremezsin.");
           await premiumdata.updateOne({ user: u.id }, {$set: {Date: Date.now(), ms: ay}}, { upsert: true })
-          let guild = client.guilds.cache.get("773128369138958366").members.cache.get(u.id);
+          let guild = client.guilds.cache.get("1192104290458796042").members.cache.get(u.id);
           if(guild) {
-           client.guilds.cache.get("773128369138958366").members.cache.get(u.id).roles.add("845445341994418226")
+           client.guilds.cache.get("1192104290458796042").members.cache.get(u.id).roles.add("1192123059721744454")
           }
           await coin.findOneAndUpdate({userID: u.id }, {$inc: {amount: 150 }}, { upsert: true })
           await gecmis.findOneAndUpdate({userID: u.id}, {$push: {gecmis: { count: 150, user: '{system}', reason: 'Premium', Date: Date.now() } }}, { upsert: true});          
@@ -116,9 +116,9 @@ module.exports = {
                              );
           await partnerdata.updateOne({ guildID: message.guild.id }, {$set: { premium_davetkodu: "Aktif", premium_durum: "Aktif", premium_Date: Date.now(), premium_ms: ay }}, { upsert: true })
           await premiumdata.updateOne({ user: u.id }, {$set: {Date: Date.now(), ms: ay}}, { upsert: true })
-          let guild = client.guilds.cache.get("773128369138958366").members.cache.get(u.id);
+          let guild = client.guilds.cache.get("1192104290458796042").members.cache.get(u.id);
           if(guild) {
-           client.guilds.cache.get("773128369138958366").members.cache.get(u.id).roles.add("845445341994418226")
+           client.guilds.cache.get("1192104290458796042").members.cache.get(u.id).roles.add("1192123059721744454")
           }
            await preserver.deleteOne({ kod: kodd });
           await coin.findOneAndUpdate({userID: u.id }, {$inc: {amount: 150 }}, { upsert: true })
