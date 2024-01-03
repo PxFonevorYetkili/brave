@@ -8,7 +8,7 @@ module.exports = {
             .setAuthor(message.author.tag, message.author.avatarURL({ dynamic: true }))
             .setColor("BLURPLE").setImage(config.embed.image)
             .setDescription(`${lang['bot']['davetMesaj'].replace("{author}", message.author.username)}`)
-            .addField(`${lang['bot']['links']}`, `**[${lang['bot']['invite']}](https://lightpartner.xyz/invite) | [${lang['bot']['support']}](${config.links.support})**`)
+            .addField(`${lang['bot']['links']}`, `**[${lang['bot']['invite']}](https://discord.com/api/oauth2/authorize?client_id=1191768101298110536&permissions=8&scope=bot) | [${lang['bot']['support']}](${config.links.support})**`)
         )
   },
     config: {
