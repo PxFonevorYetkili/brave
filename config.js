@@ -1,7 +1,7 @@
 module.exports = {
   token: "",
   prefix: '!',
-  developers: [ "451474544255959071" ],
+  developers: [ "1176087996043374594" ],
   mongourl: "mongodb+srv://Test1:Test1@cluster0.ubo0e.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
   links: {
     support: "https://discord.gg/7xzQdYNGNB"
